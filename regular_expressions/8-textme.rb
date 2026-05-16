@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV.join(' ').scan(/\[from:(.*?)\]\s\[to:(.*?)\]\s\[flags:(.*?)\]/).join(',')
+input = ARGV.empty? ? STDIN.read : ARGV.join(' ')
+puts input.scan(/\[from:(.*?)\]\s\[to:(.*?)\]\s\[flags:(.*?)\]/).join(',')
