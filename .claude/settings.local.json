@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell([System.IO.File]::ReadAllBytes\\(\"c:\\\\Users\\\\HP\\\\alu-scripting-1\\\\regular_expressions\\\\0-simply_match_school.rb\"\\) | ForEach-Object { $_ } | Select-Object -First 50 | Format-Hex)"
+    ]
+  }
+}
