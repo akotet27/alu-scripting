@@ -1,1 +1,1 @@
-API advanced by Daniel
+API advanced by Akotet
